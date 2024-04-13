@@ -1,0 +1,193 @@
+{% extends "base.html" %}
+
+{% block style %}
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<!-- Leaflet CSS -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+<style>
+    #map { height: 400px; }
+</style>
+{% endblock style %}
+
+{% block main %}
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Case Detail</h1>
+            <table class="table ">
+                <tbody>
+                    <tr>
+                        <th>Case ID</th>
+                        <td>{{ case.case_id }}</td>
+                    </tr>
+                    <tr>
+                        <th>Case Name</th>
+                        <td>{{ case.case_name }}</td>
+                    </tr>
+                    <tr>
+                        <th>Case Type</th>
+                        <td>{{ case.case_type }}</td>
+                    </tr>
+                    <tr>
+                        <th>Case Description</th>
+                        <td>{{ case.case_description }}</td>
+                    </tr>
+                    <tr>
+                        <th>Case Date</th>
+                        <td>{{ case.case_date }}</td>
+                    </tr>
+                    <tr>
+                        <th>address</th>
+                        <td>{{ case.address }}</td>
+                    </tr>
+                    <tr>
+                        <th>Case Location</th>
+                        <td>
+                        <input type="text" class="form-control" id="locationInput" placeholder="latitude, longitude" value="{{ case.case_location }}" readonly>
+                    </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" id="map"></td>
+                    </tr>
+                    <tr>
+                        <th>Case Files</th>
+                        <td><a href=" {{ case.case_files.url }}">View</a> </td>
+                    </tr>
+
+                    {% if request.user.is_superuser %}
+                  
+                        <th>Assigned Inspector</th>
+
+                        <td>
+                            
+                            <form action="" method="post">
+                            {% csrf_token %}
+                            <select name="inspector" class="form-select  form-select-sm">
+                                {% if case.inspector %}
+                                <option value="{{ case.inspector.id }}">{{ case.inspector.first_name }} {{ case.inspector.last_name }} ({{case.inspector.id}})</option>
+                                {% endif %}
+                                <option value="">Select Inspector</option>
+                                {% for inspector in inspectors %}
+                                <option value="{{ inspector.id }}">{{ inspector.first_name }} {{ inspector.last_name }} ({{inspector.id}})</option>
+                                {% endfor %}
+                            </select>
+                            
+                            </td>
+
+                    </tr>
+                    <tr>
+                        <th>Status</th>
+                        <td>
+                            <select name="case_status" class="form-select  form-select-sm">
+                                {% if case.case_status %}
+                                <option value="{{case.case_status}}">{{case.case_status}}</option>
+                                {% endif %}
+
+                                <option value="">Select Status</option>
+                                <option value="Pending">Pending</option>
+                                <option value="Assigned">Assigned</option>
+                                <option value="Completed">Completed</option>
+                                <option value="Cancelled">Cancelled</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <th colspan="2" class="text-center"><button type="submit" class="btn btn-primary">Update</button>
+
+                        </form></th>
+                    </tr>
+                    {% endif %}
+                    {% if request.user.is_inspector %}
+
+                    <tr>
+                        <th>User</th>
+                        <td>{{case.user.email}}</td>
+                    </tr>
+                    <form action="" method="post">
+                         {% csrf_token %}
+                    <tr>
+                        <th>Status</th>
+                        <td>
+                            <select name="case_status" class="form-select  form-select-sm">
+                                {% if case.case_status %}
+                                <option value="{{case.case_status}}">{{case.case_status}}</option>
+                                {% endif %}
+
+                                <option value="">Select Status</option>
+                                <option value="Pending">Pending</option>
+                                <option value="Assigned">Assigned</option>
+                                <option value="Completed">Completed</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <th colspan="2" class="text-center"><button type="submit" class="btn btn-primary">Update</button>
+
+                        </form></th>
+                    </tr>
+                    {% endif %}
+                    
+                    {% if not request.user.is_inspector and not request.user.is_superuser %}
+
+                    
+                    <tr>
+                        <th>Status</th>
+                        <td>{{case.case_status}}</td>
+                           
+                    </tr>
+                  
+                    <tr>
+                        <th>Inspector</th>
+                        <td>{{case.inspector.email}}</td>
+                    </tr>
+                    {% endif %}
+
+
+
+                    <!-- Add more details as needed -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+<!-- Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Leaflet JS -->
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<!-- JavaScript to show location on map -->
+<script>
+    var map;
+    var marker;
+
+    function initMap() {
+        map = L.map('map').setView([0, 0], 13);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        showLocation(); // Automatically show location on map when the page loads
+    }
+
+    function showLocation() {
+        var locationInput = document.getElementById('locationInput').value;
+        var coordinates = locationInput.split(',');
+        var latitude = parseFloat(coordinates[0]);
+        var longitude = parseFloat(coordinates[1]);
+
+        // Update map view
+        map.setView([latitude, longitude], 13);
+
+        // Add marker to map
+        if (marker) {
+            map.removeLayer(marker);
+        }
+        marker = L.marker([latitude, longitude]).addTo(map);
+        marker.bindPopup("Location").openPopup();
+    }
+
+    document.addEventListener('DOMContentLoaded', initMap);
+</script>
+
+{% endblock main %}

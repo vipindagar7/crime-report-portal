@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block style %}{% endblock style %}
+
+{% block main %}
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Your Case</h1>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Type</th>
+                        <th>Created on</th>
+                        <th>Status</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for case in cases %}
+                    <tr>
+                        <td>{{ case.case_name }}</td>
+                        <td>{{ case.case_type }}</td>
+                        <td>{{ case.case_created_on }}</td>
+                        <td>{{case.case_status}}</td>
+                        <td><a href="/reports/cases/{{case.case_id}}/" class="btn btn-info btn-sm">View</a></td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+{% endblock main %}

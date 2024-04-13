@@ -1,0 +1,8 @@
+python
+django
+pillow
+io
+nbconvert
+folium
+pandas
+matplotlib

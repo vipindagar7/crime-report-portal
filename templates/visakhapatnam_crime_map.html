@@ -1,0 +1,2772 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4ef33a6e914d57be45345b076cf4beed {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4ef33a6e914d57be45345b076cf4beed" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4ef33a6e914d57be45345b076cf4beed = L.map(
+                "map_4ef33a6e914d57be45345b076cf4beed",
+                {
+                    center: [17.6868, 83.2185],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3f8074dade53b7e385660730f54cc8e3 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_3f8074dade53b7e385660730f54cc8e3.addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var marker_e1a1865e9712dd110fae6dec654df594 = L.marker(
+                [17.727127, 83.291812],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_ca388c1112c33384fbacfaa51c3086d9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_e1a1865e9712dd110fae6dec654df594.setIcon(icon_ca388c1112c33384fbacfaa51c3086d9);
+        
+    
+        var popup_68724edc4b6240163fc46e8a8ebb9e94 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_83e751475a4b5864c0a8cc9f48efa788 = $(`<div id="html_83e751475a4b5864c0a8cc9f48efa788" style="width: 100.0%; height: 100.0%;">Cyber crimes</div>`)[0];
+                popup_68724edc4b6240163fc46e8a8ebb9e94.setContent(html_83e751475a4b5864c0a8cc9f48efa788);
+            
+        
+
+        marker_e1a1865e9712dd110fae6dec654df594.bindPopup(popup_68724edc4b6240163fc46e8a8ebb9e94)
+        ;
+
+        
+    
+    
+            var marker_ada9f1dd7c885e23a0c04229c6a27f91 = L.marker(
+                [17.774504, 83.251215],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_02b61f64e0e641b13e4979e93efc5e0e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_ada9f1dd7c885e23a0c04229c6a27f91.setIcon(icon_02b61f64e0e641b13e4979e93efc5e0e);
+        
+    
+        var popup_e85ff22595d30010828bd8028c1202b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_95de038b53c810107c376cb2b55f4dab = $(`<div id="html_95de038b53c810107c376cb2b55f4dab" style="width: 100.0%; height: 100.0%;">Cyber crimes</div>`)[0];
+                popup_e85ff22595d30010828bd8028c1202b1.setContent(html_95de038b53c810107c376cb2b55f4dab);
+            
+        
+
+        marker_ada9f1dd7c885e23a0c04229c6a27f91.bindPopup(popup_e85ff22595d30010828bd8028c1202b1)
+        ;
+
+        
+    
+    
+            var marker_66334b1319e6d05f844dbf633e64cddd = L.marker(
+                [17.744795, 83.312133],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_b3a0e8421614ebf4bb2876e156784b9b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_66334b1319e6d05f844dbf633e64cddd.setIcon(icon_b3a0e8421614ebf4bb2876e156784b9b);
+        
+    
+        var popup_9d7a194619960087fa63d6430fd543b8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_672ea07c73f3c4769e0a5bba6c3094aa = $(`<div id="html_672ea07c73f3c4769e0a5bba6c3094aa" style="width: 100.0%; height: 100.0%;">Domestic Violence</div>`)[0];
+                popup_9d7a194619960087fa63d6430fd543b8.setContent(html_672ea07c73f3c4769e0a5bba6c3094aa);
+            
+        
+
+        marker_66334b1319e6d05f844dbf633e64cddd.bindPopup(popup_9d7a194619960087fa63d6430fd543b8)
+        ;
+
+        
+    
+    
+            var marker_11cd579ee13e2e32cebf4d489f3d4e70 = L.marker(
+                [17.718137, 83.303284],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_04b3425f01e786187864aea330a0da4f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_11cd579ee13e2e32cebf4d489f3d4e70.setIcon(icon_04b3425f01e786187864aea330a0da4f);
+        
+    
+        var popup_1b5a333f6b894c95baef3ac96462e98c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a0f9f4535e390e41d69b723e4273617 = $(`<div id="html_5a0f9f4535e390e41d69b723e4273617" style="width: 100.0%; height: 100.0%;">Drug-Related</div>`)[0];
+                popup_1b5a333f6b894c95baef3ac96462e98c.setContent(html_5a0f9f4535e390e41d69b723e4273617);
+            
+        
+
+        marker_11cd579ee13e2e32cebf4d489f3d4e70.bindPopup(popup_1b5a333f6b894c95baef3ac96462e98c)
+        ;
+
+        
+    
+    
+            var marker_954b7eaba8b31bfd76e76e33310216c7 = L.marker(
+                [17.757789, 83.378644],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_3f8c73bea7a64f617450dd0624602840 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_954b7eaba8b31bfd76e76e33310216c7.setIcon(icon_3f8c73bea7a64f617450dd0624602840);
+        
+    
+        var popup_dc84220e00e701db5e7777dddf340517 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a11e4125e48132fc41b9698b979525a = $(`<div id="html_2a11e4125e48132fc41b9698b979525a" style="width: 100.0%; height: 100.0%;">Financial Crimes</div>`)[0];
+                popup_dc84220e00e701db5e7777dddf340517.setContent(html_2a11e4125e48132fc41b9698b979525a);
+            
+        
+
+        marker_954b7eaba8b31bfd76e76e33310216c7.bindPopup(popup_dc84220e00e701db5e7777dddf340517)
+        ;
+
+        
+    
+    
+            var marker_1e25d04f27b3ef7b1aa56f752edbd18c = L.marker(
+                [17.763595, 83.37808],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_34b87905c4ae9110aa329f296b913701 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_1e25d04f27b3ef7b1aa56f752edbd18c.setIcon(icon_34b87905c4ae9110aa329f296b913701);
+        
+    
+        var popup_48dcb58ba9e8c3b096ccbe7b15a6045d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3edd6103fb0cdf2ce60fea24b4827f87 = $(`<div id="html_3edd6103fb0cdf2ce60fea24b4827f87" style="width: 100.0%; height: 100.0%;">Domestic Violence</div>`)[0];
+                popup_48dcb58ba9e8c3b096ccbe7b15a6045d.setContent(html_3edd6103fb0cdf2ce60fea24b4827f87);
+            
+        
+
+        marker_1e25d04f27b3ef7b1aa56f752edbd18c.bindPopup(popup_48dcb58ba9e8c3b096ccbe7b15a6045d)
+        ;
+
+        
+    
+    
+            var marker_7d2427e5fc10782a1a25b7008269c30d = L.marker(
+                [17.732432, 83.235383],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_84a5b0575e3cf6b16fe40e09c82cb27d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_7d2427e5fc10782a1a25b7008269c30d.setIcon(icon_84a5b0575e3cf6b16fe40e09c82cb27d);
+        
+    
+        var popup_349e2b9b6e42132a352fdb51e8721121 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_75bc7e4b2cd3603c101256380d785e20 = $(`<div id="html_75bc7e4b2cd3603c101256380d785e20" style="width: 100.0%; height: 100.0%;">Domestic Violence</div>`)[0];
+                popup_349e2b9b6e42132a352fdb51e8721121.setContent(html_75bc7e4b2cd3603c101256380d785e20);
+            
+        
+
+        marker_7d2427e5fc10782a1a25b7008269c30d.bindPopup(popup_349e2b9b6e42132a352fdb51e8721121)
+        ;
+
+        
+    
+    
+            var marker_3625a8092b722aef0a6a45b6d8d79367 = L.marker(
+                [17.766412, 83.222247],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_c53719e57f9bd7ec7eea17178484dd85 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3625a8092b722aef0a6a45b6d8d79367.setIcon(icon_c53719e57f9bd7ec7eea17178484dd85);
+        
+    
+        var popup_c79353f2e2a046e70db4ed0434ad407c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d40aba3fd85c89eb58bf6d5708fbfc6 = $(`<div id="html_5d40aba3fd85c89eb58bf6d5708fbfc6" style="width: 100.0%; height: 100.0%;">Financial Crimes</div>`)[0];
+                popup_c79353f2e2a046e70db4ed0434ad407c.setContent(html_5d40aba3fd85c89eb58bf6d5708fbfc6);
+            
+        
+
+        marker_3625a8092b722aef0a6a45b6d8d79367.bindPopup(popup_c79353f2e2a046e70db4ed0434ad407c)
+        ;
+
+        
+    
+    
+            var marker_106aad15736548f43cde0ec1244f0969 = L.marker(
+                [17.76477, 83.338861],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_5d083af19c273222426cea65487ca1f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_106aad15736548f43cde0ec1244f0969.setIcon(icon_5d083af19c273222426cea65487ca1f8);
+        
+    
+        var popup_86e47b9463fae0d6ceb2fa60282d7c49 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c78dbc367dc1b67ea80983484837085 = $(`<div id="html_7c78dbc367dc1b67ea80983484837085" style="width: 100.0%; height: 100.0%;">Cyber crimes</div>`)[0];
+                popup_86e47b9463fae0d6ceb2fa60282d7c49.setContent(html_7c78dbc367dc1b67ea80983484837085);
+            
+        
+
+        marker_106aad15736548f43cde0ec1244f0969.bindPopup(popup_86e47b9463fae0d6ceb2fa60282d7c49)
+        ;
+
+        
+    
+    
+            var marker_b0084323b6ad78c9c299e657f9f89ad5 = L.marker(
+                [17.703002, 83.28774],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_c124762b203d5750dcb6adcbfd3d220b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b0084323b6ad78c9c299e657f9f89ad5.setIcon(icon_c124762b203d5750dcb6adcbfd3d220b);
+        
+    
+        var popup_7bfdf8e5d58ec001fa904f8da0fb50cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a7dd564fa399fc79c51ad48883cba5a = $(`<div id="html_5a7dd564fa399fc79c51ad48883cba5a" style="width: 100.0%; height: 100.0%;">Financial Crimes</div>`)[0];
+                popup_7bfdf8e5d58ec001fa904f8da0fb50cb.setContent(html_5a7dd564fa399fc79c51ad48883cba5a);
+            
+        
+
+        marker_b0084323b6ad78c9c299e657f9f89ad5.bindPopup(popup_7bfdf8e5d58ec001fa904f8da0fb50cb)
+        ;
+
+        
+    
+    
+            var marker_936dbe902394b7f6ffa65076411be5df = L.marker(
+                [17.733433, 83.22397],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_008086123a6b410f52eb013f670fd4cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_936dbe902394b7f6ffa65076411be5df.setIcon(icon_008086123a6b410f52eb013f670fd4cf);
+        
+    
+        var popup_0bb13d9fac102ee49456a855f22f547e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_524055cc4fc1c00a588168e57ee91dc7 = $(`<div id="html_524055cc4fc1c00a588168e57ee91dc7" style="width: 100.0%; height: 100.0%;">Property crimes</div>`)[0];
+                popup_0bb13d9fac102ee49456a855f22f547e.setContent(html_524055cc4fc1c00a588168e57ee91dc7);
+            
+        
+
+        marker_936dbe902394b7f6ffa65076411be5df.bindPopup(popup_0bb13d9fac102ee49456a855f22f547e)
+        ;
+
+        
+    
+    
+            var marker_46580dfc33098e9b0cd47e76d0dd01df = L.marker(
+                [17.757146, 83.300883],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_c2ecb62a537147f84afdb5ce97978d57 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_46580dfc33098e9b0cd47e76d0dd01df.setIcon(icon_c2ecb62a537147f84afdb5ce97978d57);
+        
+    
+        var popup_8a7efac2e88fd7f638000effff2e8a0d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_705b0314315239571715f886151c4fbb = $(`<div id="html_705b0314315239571715f886151c4fbb" style="width: 100.0%; height: 100.0%;">Human Trafficking</div>`)[0];
+                popup_8a7efac2e88fd7f638000effff2e8a0d.setContent(html_705b0314315239571715f886151c4fbb);
+            
+        
+
+        marker_46580dfc33098e9b0cd47e76d0dd01df.bindPopup(popup_8a7efac2e88fd7f638000effff2e8a0d)
+        ;
+
+        
+    
+    
+            var marker_61128e81452fc1fc7f529d82c969e1fa = L.marker(
+                [17.694516, 83.30605],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_b45a30bbb256b76883eb3b4b71193623 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_61128e81452fc1fc7f529d82c969e1fa.setIcon(icon_b45a30bbb256b76883eb3b4b71193623);
+        
+    
+        var popup_30e0b5b6f3dbb81fcdbe06419909f680 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f93d7b18765125d15c40605ac22a08ef = $(`<div id="html_f93d7b18765125d15c40605ac22a08ef" style="width: 100.0%; height: 100.0%;">Financial Crimes</div>`)[0];
+                popup_30e0b5b6f3dbb81fcdbe06419909f680.setContent(html_f93d7b18765125d15c40605ac22a08ef);
+            
+        
+
+        marker_61128e81452fc1fc7f529d82c969e1fa.bindPopup(popup_30e0b5b6f3dbb81fcdbe06419909f680)
+        ;
+
+        
+    
+    
+            var marker_2e7086ca573b8986dd7a35de2f2b5982 = L.marker(
+                [17.740917, 83.284316],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_c49e8613b5f8f44ad31adf84f10af4d3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_2e7086ca573b8986dd7a35de2f2b5982.setIcon(icon_c49e8613b5f8f44ad31adf84f10af4d3);
+        
+    
+        var popup_2c8d7f4476cd91dc9071c97590c3ae09 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_90c943f3ab4f305bed65aed8724f5dfc = $(`<div id="html_90c943f3ab4f305bed65aed8724f5dfc" style="width: 100.0%; height: 100.0%;">Cyber crimes</div>`)[0];
+                popup_2c8d7f4476cd91dc9071c97590c3ae09.setContent(html_90c943f3ab4f305bed65aed8724f5dfc);
+            
+        
+
+        marker_2e7086ca573b8986dd7a35de2f2b5982.bindPopup(popup_2c8d7f4476cd91dc9071c97590c3ae09)
+        ;
+
+        
+    
+    
+            var marker_318afff9977a722e353246c44d94a44f = L.marker(
+                [17.770343, 83.233595],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_da19ec2bdb50f6349e72673721f45db3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_318afff9977a722e353246c44d94a44f.setIcon(icon_da19ec2bdb50f6349e72673721f45db3);
+        
+    
+        var popup_1977d001a2c1b5035eb0bf8964ac2783 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a00fc730f14c096322b64850c53b05b7 = $(`<div id="html_a00fc730f14c096322b64850c53b05b7" style="width: 100.0%; height: 100.0%;">Human Trafficking</div>`)[0];
+                popup_1977d001a2c1b5035eb0bf8964ac2783.setContent(html_a00fc730f14c096322b64850c53b05b7);
+            
+        
+
+        marker_318afff9977a722e353246c44d94a44f.bindPopup(popup_1977d001a2c1b5035eb0bf8964ac2783)
+        ;
+
+        
+    
+    
+            var marker_22d95c48edcb4205e251d565c9fafa91 = L.marker(
+                [17.74533, 83.316923],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_630193b561ff977ce993bbdf8dd59995 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_22d95c48edcb4205e251d565c9fafa91.setIcon(icon_630193b561ff977ce993bbdf8dd59995);
+        
+    
+        var popup_7d24e92a79158dbf5b7111122e0c496c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b580ac53c2df9c4749e7ac0ba2f106d = $(`<div id="html_2b580ac53c2df9c4749e7ac0ba2f106d" style="width: 100.0%; height: 100.0%;">Human Trafficking</div>`)[0];
+                popup_7d24e92a79158dbf5b7111122e0c496c.setContent(html_2b580ac53c2df9c4749e7ac0ba2f106d);
+            
+        
+
+        marker_22d95c48edcb4205e251d565c9fafa91.bindPopup(popup_7d24e92a79158dbf5b7111122e0c496c)
+        ;
+
+        
+    
+    
+            var marker_8594b4579b998772af2d83e4bcf1122c = L.marker(
+                [17.719199, 83.314448],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_1ad2ceb0183d32694935ba9a457cdbcb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8594b4579b998772af2d83e4bcf1122c.setIcon(icon_1ad2ceb0183d32694935ba9a457cdbcb);
+        
+    
+        var popup_61fb8eb25db9d496da66f9b00e1a7614 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eaa716e86ea8f2d74fdb2e23102af8b6 = $(`<div id="html_eaa716e86ea8f2d74fdb2e23102af8b6" style="width: 100.0%; height: 100.0%;">Violent crimes</div>`)[0];
+                popup_61fb8eb25db9d496da66f9b00e1a7614.setContent(html_eaa716e86ea8f2d74fdb2e23102af8b6);
+            
+        
+
+        marker_8594b4579b998772af2d83e4bcf1122c.bindPopup(popup_61fb8eb25db9d496da66f9b00e1a7614)
+        ;
+
+        
+    
+    
+            var marker_75158bc1b07309838b71369e5680f96d = L.marker(
+                [17.757992, 83.36983],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_e61985cd9ee2bcaa9868c8fcd4528fba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_75158bc1b07309838b71369e5680f96d.setIcon(icon_e61985cd9ee2bcaa9868c8fcd4528fba);
+        
+    
+        var popup_0753a768cb8275aeafeb0a4e16e8f2e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c13327f0151c8efc9ec6b8932d44a33 = $(`<div id="html_7c13327f0151c8efc9ec6b8932d44a33" style="width: 100.0%; height: 100.0%;">Drug-Related</div>`)[0];
+                popup_0753a768cb8275aeafeb0a4e16e8f2e3.setContent(html_7c13327f0151c8efc9ec6b8932d44a33);
+            
+        
+
+        marker_75158bc1b07309838b71369e5680f96d.bindPopup(popup_0753a768cb8275aeafeb0a4e16e8f2e3)
+        ;
+
+        
+    
+    
+            var marker_b42894da75df60f27976ce42274bf50d = L.marker(
+                [17.690994, 83.335989],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_e94f4182bd29a278db0d826d344107be = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b42894da75df60f27976ce42274bf50d.setIcon(icon_e94f4182bd29a278db0d826d344107be);
+        
+    
+        var popup_ba32902c449cb55b7d9e3bcae09f0fda = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c98a678e2b26c98cf8a8438c8b19e6bb = $(`<div id="html_c98a678e2b26c98cf8a8438c8b19e6bb" style="width: 100.0%; height: 100.0%;">Financial Crimes</div>`)[0];
+                popup_ba32902c449cb55b7d9e3bcae09f0fda.setContent(html_c98a678e2b26c98cf8a8438c8b19e6bb);
+            
+        
+
+        marker_b42894da75df60f27976ce42274bf50d.bindPopup(popup_ba32902c449cb55b7d9e3bcae09f0fda)
+        ;
+
+        
+    
+    
+            var marker_bc2243b00686c1043fdb8b5d84521f9b = L.marker(
+                [17.755939, 83.275325],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_ca5ed2c230dbdad33ee92584aad46842 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bc2243b00686c1043fdb8b5d84521f9b.setIcon(icon_ca5ed2c230dbdad33ee92584aad46842);
+        
+    
+        var popup_727f83efbadcad327f81067feac03900 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d158e3e46d1b0ff9919d28b9f1398e3 = $(`<div id="html_2d158e3e46d1b0ff9919d28b9f1398e3" style="width: 100.0%; height: 100.0%;">Property crimes</div>`)[0];
+                popup_727f83efbadcad327f81067feac03900.setContent(html_2d158e3e46d1b0ff9919d28b9f1398e3);
+            
+        
+
+        marker_bc2243b00686c1043fdb8b5d84521f9b.bindPopup(popup_727f83efbadcad327f81067feac03900)
+        ;
+
+        
+    
+    
+            var marker_f1ce90ccd710398ae337c0b8215df1b0 = L.marker(
+                [17.766034, 83.270759],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_6c28b0a147fe9b800ff6535b5601cb81 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f1ce90ccd710398ae337c0b8215df1b0.setIcon(icon_6c28b0a147fe9b800ff6535b5601cb81);
+        
+    
+        var popup_62bb88e5ef3085c15386a78182794616 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a8056066640592225e02f347b6875c9c = $(`<div id="html_a8056066640592225e02f347b6875c9c" style="width: 100.0%; height: 100.0%;">Violent crimes</div>`)[0];
+                popup_62bb88e5ef3085c15386a78182794616.setContent(html_a8056066640592225e02f347b6875c9c);
+            
+        
+
+        marker_f1ce90ccd710398ae337c0b8215df1b0.bindPopup(popup_62bb88e5ef3085c15386a78182794616)
+        ;
+
+        
+    
+    
+            var marker_fd91d2c17397714f4cb1d6c5563f76c8 = L.marker(
+                [17.732411, 83.339559],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_f31e7f671319a212548aa438f92248d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fd91d2c17397714f4cb1d6c5563f76c8.setIcon(icon_f31e7f671319a212548aa438f92248d0);
+        
+    
+        var popup_df21cc7dc60952ecf4a70972a242f618 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a0d650c60b5e7f69d5d866e9217f583 = $(`<div id="html_7a0d650c60b5e7f69d5d866e9217f583" style="width: 100.0%; height: 100.0%;">Financial Crimes</div>`)[0];
+                popup_df21cc7dc60952ecf4a70972a242f618.setContent(html_7a0d650c60b5e7f69d5d866e9217f583);
+            
+        
+
+        marker_fd91d2c17397714f4cb1d6c5563f76c8.bindPopup(popup_df21cc7dc60952ecf4a70972a242f618)
+        ;
+
+        
+    
+    
+            var marker_86412776b7705a85a45fbbef3133a8cf = L.marker(
+                [17.749345, 83.314988],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_bd08f79260fafb7700b1fafcd373e193 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_86412776b7705a85a45fbbef3133a8cf.setIcon(icon_bd08f79260fafb7700b1fafcd373e193);
+        
+    
+        var popup_5429589455f871bd3112c15024143332 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1716737c1c6a61c190575a26b54942bc = $(`<div id="html_1716737c1c6a61c190575a26b54942bc" style="width: 100.0%; height: 100.0%;">Domestic Violence</div>`)[0];
+                popup_5429589455f871bd3112c15024143332.setContent(html_1716737c1c6a61c190575a26b54942bc);
+            
+        
+
+        marker_86412776b7705a85a45fbbef3133a8cf.bindPopup(popup_5429589455f871bd3112c15024143332)
+        ;
+
+        
+    
+    
+            var marker_8e34f4836e3398520f6749899a6ad9a1 = L.marker(
+                [17.688128, 83.347315],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_b7a314931b46aef8412874bb337b2808 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8e34f4836e3398520f6749899a6ad9a1.setIcon(icon_b7a314931b46aef8412874bb337b2808);
+        
+    
+        var popup_b4d1ba07685fd808e9d440aba81c83a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d5dcade310b66a4d9e8095914d240ec = $(`<div id="html_0d5dcade310b66a4d9e8095914d240ec" style="width: 100.0%; height: 100.0%;">Property crimes</div>`)[0];
+                popup_b4d1ba07685fd808e9d440aba81c83a5.setContent(html_0d5dcade310b66a4d9e8095914d240ec);
+            
+        
+
+        marker_8e34f4836e3398520f6749899a6ad9a1.bindPopup(popup_b4d1ba07685fd808e9d440aba81c83a5)
+        ;
+
+        
+    
+    
+            var marker_023e8b3bc6b5428bf112f18f574a104b = L.marker(
+                [17.74345, 83.289228],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_6bae8eaaceb8f7eae90c5a6335427640 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_023e8b3bc6b5428bf112f18f574a104b.setIcon(icon_6bae8eaaceb8f7eae90c5a6335427640);
+        
+    
+        var popup_0f34037201f84805b06b51fadc3b5813 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d89cebf3026df75a91c315b7d41fe79 = $(`<div id="html_1d89cebf3026df75a91c315b7d41fe79" style="width: 100.0%; height: 100.0%;">Domestic Violence</div>`)[0];
+                popup_0f34037201f84805b06b51fadc3b5813.setContent(html_1d89cebf3026df75a91c315b7d41fe79);
+            
+        
+
+        marker_023e8b3bc6b5428bf112f18f574a104b.bindPopup(popup_0f34037201f84805b06b51fadc3b5813)
+        ;
+
+        
+    
+    
+            var marker_d8f047965e56ced2963b1e5b0b6cfcc5 = L.marker(
+                [17.738728, 83.281838],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_8bde8fc098cb5d8f65303edbfa4d8d5f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_d8f047965e56ced2963b1e5b0b6cfcc5.setIcon(icon_8bde8fc098cb5d8f65303edbfa4d8d5f);
+        
+    
+        var popup_b91b54f1740bc0bd29718a119243a3d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_16d51e006c14b7d09006d639064a31d6 = $(`<div id="html_16d51e006c14b7d09006d639064a31d6" style="width: 100.0%; height: 100.0%;">Domestic Violence</div>`)[0];
+                popup_b91b54f1740bc0bd29718a119243a3d5.setContent(html_16d51e006c14b7d09006d639064a31d6);
+            
+        
+
+        marker_d8f047965e56ced2963b1e5b0b6cfcc5.bindPopup(popup_b91b54f1740bc0bd29718a119243a3d5)
+        ;
+
+        
+    
+    
+            var marker_fabcee032708b33296c7b7a4fe925d35 = L.marker(
+                [17.715566, 83.349516],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_cac37adbfc9742043dc349b41e22aac0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_fabcee032708b33296c7b7a4fe925d35.setIcon(icon_cac37adbfc9742043dc349b41e22aac0);
+        
+    
+        var popup_bde673f29af4d349797fd8b4116b69e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_284fb5e1b7e96e781bb54dc3843e9ff2 = $(`<div id="html_284fb5e1b7e96e781bb54dc3843e9ff2" style="width: 100.0%; height: 100.0%;">Human Trafficking</div>`)[0];
+                popup_bde673f29af4d349797fd8b4116b69e2.setContent(html_284fb5e1b7e96e781bb54dc3843e9ff2);
+            
+        
+
+        marker_fabcee032708b33296c7b7a4fe925d35.bindPopup(popup_bde673f29af4d349797fd8b4116b69e2)
+        ;
+
+        
+    
+    
+            var marker_ea0280136edd65bb7d2a33e6c6ed90b8 = L.marker(
+                [17.762112, 83.288551],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_9df0aafb35ebac74b49c9fa1658eebac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_ea0280136edd65bb7d2a33e6c6ed90b8.setIcon(icon_9df0aafb35ebac74b49c9fa1658eebac);
+        
+    
+        var popup_fa55bcf1d68c4c26d114c9361ec0495e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e0b63cdb93ce25bf531574d28b610f6 = $(`<div id="html_7e0b63cdb93ce25bf531574d28b610f6" style="width: 100.0%; height: 100.0%;">Cyber crimes</div>`)[0];
+                popup_fa55bcf1d68c4c26d114c9361ec0495e.setContent(html_7e0b63cdb93ce25bf531574d28b610f6);
+            
+        
+
+        marker_ea0280136edd65bb7d2a33e6c6ed90b8.bindPopup(popup_fa55bcf1d68c4c26d114c9361ec0495e)
+        ;
+
+        
+    
+    
+            var marker_8864f179520c41f82919c2b252d63b69 = L.marker(
+                [17.701149, 83.296819],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_e8675b2fc59e80c9ad4456f43284471a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_8864f179520c41f82919c2b252d63b69.setIcon(icon_e8675b2fc59e80c9ad4456f43284471a);
+        
+    
+        var popup_2381919457633135cd3450d61f7bc62e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c0f54c750e5c5804dc8c0874e708fa99 = $(`<div id="html_c0f54c750e5c5804dc8c0874e708fa99" style="width: 100.0%; height: 100.0%;">Human Trafficking</div>`)[0];
+                popup_2381919457633135cd3450d61f7bc62e.setContent(html_c0f54c750e5c5804dc8c0874e708fa99);
+            
+        
+
+        marker_8864f179520c41f82919c2b252d63b69.bindPopup(popup_2381919457633135cd3450d61f7bc62e)
+        ;
+
+        
+    
+    
+            var marker_7094f7bc308cc15c357ae7e00f2799ea = L.marker(
+                [17.688496, 83.226847],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_83fa8b81345f59ba6c9dbae5e65cf46e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7094f7bc308cc15c357ae7e00f2799ea.setIcon(icon_83fa8b81345f59ba6c9dbae5e65cf46e);
+        
+    
+        var popup_c66d980376bf7a10cdab3195b51ee61a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_01fe083b04d5622ca4eed35dba266499 = $(`<div id="html_01fe083b04d5622ca4eed35dba266499" style="width: 100.0%; height: 100.0%;">Financial Crimes</div>`)[0];
+                popup_c66d980376bf7a10cdab3195b51ee61a.setContent(html_01fe083b04d5622ca4eed35dba266499);
+            
+        
+
+        marker_7094f7bc308cc15c357ae7e00f2799ea.bindPopup(popup_c66d980376bf7a10cdab3195b51ee61a)
+        ;
+
+        
+    
+    
+            var marker_c90ebc8bdb1439c49bf8acada76a6ee3 = L.marker(
+                [17.732962, 83.350457],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_e8fa2ff2cbf77a2d257e591b5d4a26de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_c90ebc8bdb1439c49bf8acada76a6ee3.setIcon(icon_e8fa2ff2cbf77a2d257e591b5d4a26de);
+        
+    
+        var popup_5e6c503c42428f31258a8e777178cec9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_78eb34d1e1a68510a743efe48a622877 = $(`<div id="html_78eb34d1e1a68510a743efe48a622877" style="width: 100.0%; height: 100.0%;">Cyber crimes</div>`)[0];
+                popup_5e6c503c42428f31258a8e777178cec9.setContent(html_78eb34d1e1a68510a743efe48a622877);
+            
+        
+
+        marker_c90ebc8bdb1439c49bf8acada76a6ee3.bindPopup(popup_5e6c503c42428f31258a8e777178cec9)
+        ;
+
+        
+    
+    
+            var marker_580320e9fcc05a07f6efa62f17a4a094 = L.marker(
+                [17.740359, 83.261327],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_270f562b667da973160db1c7a70a0ce5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_580320e9fcc05a07f6efa62f17a4a094.setIcon(icon_270f562b667da973160db1c7a70a0ce5);
+        
+    
+        var popup_2d4df25a8af5968f260ceacfb0c05bab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_07a15049785324f00a3b54d25eddfcfb = $(`<div id="html_07a15049785324f00a3b54d25eddfcfb" style="width: 100.0%; height: 100.0%;">Cyber crimes</div>`)[0];
+                popup_2d4df25a8af5968f260ceacfb0c05bab.setContent(html_07a15049785324f00a3b54d25eddfcfb);
+            
+        
+
+        marker_580320e9fcc05a07f6efa62f17a4a094.bindPopup(popup_2d4df25a8af5968f260ceacfb0c05bab)
+        ;
+
+        
+    
+    
+            var marker_99c16e43d31c686b0d81d19711dc522f = L.marker(
+                [17.720299, 83.258728],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_bdb46ba430c51e177532b6a51bf667ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_99c16e43d31c686b0d81d19711dc522f.setIcon(icon_bdb46ba430c51e177532b6a51bf667ee);
+        
+    
+        var popup_f5763ccb2685e9e00a47eecaeadfebb3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8de2657a35ed4946b4394d968759234e = $(`<div id="html_8de2657a35ed4946b4394d968759234e" style="width: 100.0%; height: 100.0%;">Domestic Violence</div>`)[0];
+                popup_f5763ccb2685e9e00a47eecaeadfebb3.setContent(html_8de2657a35ed4946b4394d968759234e);
+            
+        
+
+        marker_99c16e43d31c686b0d81d19711dc522f.bindPopup(popup_f5763ccb2685e9e00a47eecaeadfebb3)
+        ;
+
+        
+    
+    
+            var marker_72eacf23ea0941ee494c1906bd417c44 = L.marker(
+                [17.762337, 83.334551],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_f20b750a8d6d3473ef5b692286c82c39 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_72eacf23ea0941ee494c1906bd417c44.setIcon(icon_f20b750a8d6d3473ef5b692286c82c39);
+        
+    
+        var popup_3880d0eb994658ab71da2ca59c60095a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f5002fc84f5d3376533f178633123ac = $(`<div id="html_5f5002fc84f5d3376533f178633123ac" style="width: 100.0%; height: 100.0%;">Drug-Related</div>`)[0];
+                popup_3880d0eb994658ab71da2ca59c60095a.setContent(html_5f5002fc84f5d3376533f178633123ac);
+            
+        
+
+        marker_72eacf23ea0941ee494c1906bd417c44.bindPopup(popup_3880d0eb994658ab71da2ca59c60095a)
+        ;
+
+        
+    
+    
+            var marker_0050234d05d338c9dda71ee6c5e69bdd = L.marker(
+                [17.758248, 83.220918],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_643879c4835cf839e48a7c029f5d0968 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0050234d05d338c9dda71ee6c5e69bdd.setIcon(icon_643879c4835cf839e48a7c029f5d0968);
+        
+    
+        var popup_920394bee10187bd0ad931c0c889a0b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d477619a2b55941e743c9421bc4b312a = $(`<div id="html_d477619a2b55941e743c9421bc4b312a" style="width: 100.0%; height: 100.0%;">Financial Crimes</div>`)[0];
+                popup_920394bee10187bd0ad931c0c889a0b5.setContent(html_d477619a2b55941e743c9421bc4b312a);
+            
+        
+
+        marker_0050234d05d338c9dda71ee6c5e69bdd.bindPopup(popup_920394bee10187bd0ad931c0c889a0b5)
+        ;
+
+        
+    
+    
+            var marker_ef059d48d772f76aeaf2e3cf72cd907a = L.marker(
+                [17.770878, 83.301951],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_e6ee7b888dde5372ca8320b2ae5dd660 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_ef059d48d772f76aeaf2e3cf72cd907a.setIcon(icon_e6ee7b888dde5372ca8320b2ae5dd660);
+        
+    
+        var popup_abfe1082818f4c1b2106033dceb05ad2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_68437f9d4d3a596d054ef2117abbb51b = $(`<div id="html_68437f9d4d3a596d054ef2117abbb51b" style="width: 100.0%; height: 100.0%;">Cyber crimes</div>`)[0];
+                popup_abfe1082818f4c1b2106033dceb05ad2.setContent(html_68437f9d4d3a596d054ef2117abbb51b);
+            
+        
+
+        marker_ef059d48d772f76aeaf2e3cf72cd907a.bindPopup(popup_abfe1082818f4c1b2106033dceb05ad2)
+        ;
+
+        
+    
+    
+            var marker_2466d5283f2e48a7df76ade35e2dda6a = L.marker(
+                [17.753795, 83.35026],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_bca0e213518c6ff9bc0f563b2866b727 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2466d5283f2e48a7df76ade35e2dda6a.setIcon(icon_bca0e213518c6ff9bc0f563b2866b727);
+        
+    
+        var popup_36d86d2d730efc643fe37e5feccd4795 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_46df3cf9469051ac4cd48dc2a680fe0a = $(`<div id="html_46df3cf9469051ac4cd48dc2a680fe0a" style="width: 100.0%; height: 100.0%;">Property crimes</div>`)[0];
+                popup_36d86d2d730efc643fe37e5feccd4795.setContent(html_46df3cf9469051ac4cd48dc2a680fe0a);
+            
+        
+
+        marker_2466d5283f2e48a7df76ade35e2dda6a.bindPopup(popup_36d86d2d730efc643fe37e5feccd4795)
+        ;
+
+        
+    
+    
+            var marker_a8c9eceb8dd90127adb07704ae36f3ad = L.marker(
+                [17.719813, 83.226008],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_2f88ec104907717f60d923795f5d0007 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_a8c9eceb8dd90127adb07704ae36f3ad.setIcon(icon_2f88ec104907717f60d923795f5d0007);
+        
+    
+        var popup_c38678dba15d4705688e794fbe88b863 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7583a49f85e896cd4e136789ebae5b58 = $(`<div id="html_7583a49f85e896cd4e136789ebae5b58" style="width: 100.0%; height: 100.0%;">Human Trafficking</div>`)[0];
+                popup_c38678dba15d4705688e794fbe88b863.setContent(html_7583a49f85e896cd4e136789ebae5b58);
+            
+        
+
+        marker_a8c9eceb8dd90127adb07704ae36f3ad.bindPopup(popup_c38678dba15d4705688e794fbe88b863)
+        ;
+
+        
+    
+    
+            var marker_735f5e050185cb1aaf882ce6cc217790 = L.marker(
+                [17.705988, 83.246084],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_1b0aceadfa746b5d66f452a01cea8f64 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_735f5e050185cb1aaf882ce6cc217790.setIcon(icon_1b0aceadfa746b5d66f452a01cea8f64);
+        
+    
+        var popup_3c230f4ce52e52e92d57b055020140c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_edcf60e759b5961b768d214d0ad19f9f = $(`<div id="html_edcf60e759b5961b768d214d0ad19f9f" style="width: 100.0%; height: 100.0%;">Financial Crimes</div>`)[0];
+                popup_3c230f4ce52e52e92d57b055020140c1.setContent(html_edcf60e759b5961b768d214d0ad19f9f);
+            
+        
+
+        marker_735f5e050185cb1aaf882ce6cc217790.bindPopup(popup_3c230f4ce52e52e92d57b055020140c1)
+        ;
+
+        
+    
+    
+            var marker_4b08a3cab517b0d4660a20175f7672d2 = L.marker(
+                [17.695358, 83.341946],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_adfb4adaa0c0a8498724239f57da6088 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_4b08a3cab517b0d4660a20175f7672d2.setIcon(icon_adfb4adaa0c0a8498724239f57da6088);
+        
+    
+        var popup_617ee769720b5fd592834b8b99d5312a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c0b7e31c2e205552a2cfe90271861309 = $(`<div id="html_c0b7e31c2e205552a2cfe90271861309" style="width: 100.0%; height: 100.0%;">Drug-Related</div>`)[0];
+                popup_617ee769720b5fd592834b8b99d5312a.setContent(html_c0b7e31c2e205552a2cfe90271861309);
+            
+        
+
+        marker_4b08a3cab517b0d4660a20175f7672d2.bindPopup(popup_617ee769720b5fd592834b8b99d5312a)
+        ;
+
+        
+    
+    
+            var marker_23794346f4eefc12fee4affe4ec6a165 = L.marker(
+                [17.714873, 83.270091],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_e9bc3fce9190d489664bbc1e75bac47f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_23794346f4eefc12fee4affe4ec6a165.setIcon(icon_e9bc3fce9190d489664bbc1e75bac47f);
+        
+    
+        var popup_f707ab0fc56007580cd304b73dbf7e18 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f8283cda0261bbfe01ef2d3a1f267595 = $(`<div id="html_f8283cda0261bbfe01ef2d3a1f267595" style="width: 100.0%; height: 100.0%;">Human Trafficking</div>`)[0];
+                popup_f707ab0fc56007580cd304b73dbf7e18.setContent(html_f8283cda0261bbfe01ef2d3a1f267595);
+            
+        
+
+        marker_23794346f4eefc12fee4affe4ec6a165.bindPopup(popup_f707ab0fc56007580cd304b73dbf7e18)
+        ;
+
+        
+    
+    
+            var marker_2ffee676b447322ce35d3cafe0df2477 = L.marker(
+                [17.768942, 83.257574],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_2c309810dd40d429b9b20112454a8e75 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_2ffee676b447322ce35d3cafe0df2477.setIcon(icon_2c309810dd40d429b9b20112454a8e75);
+        
+    
+        var popup_cdc726cfaa0000a42b453b9c73809182 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_37acbf3125ba1a9b0d75d492b7d1bb48 = $(`<div id="html_37acbf3125ba1a9b0d75d492b7d1bb48" style="width: 100.0%; height: 100.0%;">Drug-Related</div>`)[0];
+                popup_cdc726cfaa0000a42b453b9c73809182.setContent(html_37acbf3125ba1a9b0d75d492b7d1bb48);
+            
+        
+
+        marker_2ffee676b447322ce35d3cafe0df2477.bindPopup(popup_cdc726cfaa0000a42b453b9c73809182)
+        ;
+
+        
+    
+    
+            var marker_073f1f3f1b7e116bd1730723eea2e4f5 = L.marker(
+                [17.725001, 83.291218],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_333f7a5ed69a42e5d6edd70f5c9f80b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_073f1f3f1b7e116bd1730723eea2e4f5.setIcon(icon_333f7a5ed69a42e5d6edd70f5c9f80b9);
+        
+    
+        var popup_160c9fe291a7cb848acfc5d68b7d2344 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac38e142601757d7f7fcdd054946d8d1 = $(`<div id="html_ac38e142601757d7f7fcdd054946d8d1" style="width: 100.0%; height: 100.0%;">Property crimes</div>`)[0];
+                popup_160c9fe291a7cb848acfc5d68b7d2344.setContent(html_ac38e142601757d7f7fcdd054946d8d1);
+            
+        
+
+        marker_073f1f3f1b7e116bd1730723eea2e4f5.bindPopup(popup_160c9fe291a7cb848acfc5d68b7d2344)
+        ;
+
+        
+    
+    
+            var marker_55e9d1fde41bf2d84d10685f263366e8 = L.marker(
+                [17.714171, 83.324592],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_acf2a469638bfef30314506256f3ea45 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_55e9d1fde41bf2d84d10685f263366e8.setIcon(icon_acf2a469638bfef30314506256f3ea45);
+        
+    
+        var popup_ce77b790cdaf817e270c8ff927fd892d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_963ce17d00f0f30ac90c7b0b27c8537f = $(`<div id="html_963ce17d00f0f30ac90c7b0b27c8537f" style="width: 100.0%; height: 100.0%;">Domestic Violence</div>`)[0];
+                popup_ce77b790cdaf817e270c8ff927fd892d.setContent(html_963ce17d00f0f30ac90c7b0b27c8537f);
+            
+        
+
+        marker_55e9d1fde41bf2d84d10685f263366e8.bindPopup(popup_ce77b790cdaf817e270c8ff927fd892d)
+        ;
+
+        
+    
+    
+            var marker_293e439127bc795cfd7093d1dbcadf4d = L.marker(
+                [17.732652, 83.221395],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_649c1d49e941c99503cd63b03e64f0b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_293e439127bc795cfd7093d1dbcadf4d.setIcon(icon_649c1d49e941c99503cd63b03e64f0b9);
+        
+    
+        var popup_8ae76423659122eeede0efac123dfadf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_021aa743441872365d50d6a840033e66 = $(`<div id="html_021aa743441872365d50d6a840033e66" style="width: 100.0%; height: 100.0%;">Drug-Related</div>`)[0];
+                popup_8ae76423659122eeede0efac123dfadf.setContent(html_021aa743441872365d50d6a840033e66);
+            
+        
+
+        marker_293e439127bc795cfd7093d1dbcadf4d.bindPopup(popup_8ae76423659122eeede0efac123dfadf)
+        ;
+
+        
+    
+    
+            var marker_35ec18d6f7a8c54e241597dabb3d6452 = L.marker(
+                [17.737938, 83.254519],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_469477e3c53efcc3321e843cc251f7f5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_35ec18d6f7a8c54e241597dabb3d6452.setIcon(icon_469477e3c53efcc3321e843cc251f7f5);
+        
+    
+        var popup_c6e02749f3d682d7210e32de6a0baa78 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_42a6f99bf69dc826331cbd214119afdf = $(`<div id="html_42a6f99bf69dc826331cbd214119afdf" style="width: 100.0%; height: 100.0%;">Financial Crimes</div>`)[0];
+                popup_c6e02749f3d682d7210e32de6a0baa78.setContent(html_42a6f99bf69dc826331cbd214119afdf);
+            
+        
+
+        marker_35ec18d6f7a8c54e241597dabb3d6452.bindPopup(popup_c6e02749f3d682d7210e32de6a0baa78)
+        ;
+
+        
+    
+    
+            var marker_1b5c4b4afbcb530161d38bcfc00b6b71 = L.marker(
+                [17.768544, 83.36673],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_b9a8e3102378e9010c0520944297dadf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1b5c4b4afbcb530161d38bcfc00b6b71.setIcon(icon_b9a8e3102378e9010c0520944297dadf);
+        
+    
+        var popup_96fe7d513efa6c212f2fea94c4d490bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_081a7aeb845f497cf5b86e7c0cddb3ea = $(`<div id="html_081a7aeb845f497cf5b86e7c0cddb3ea" style="width: 100.0%; height: 100.0%;">Violent crimes</div>`)[0];
+                popup_96fe7d513efa6c212f2fea94c4d490bc.setContent(html_081a7aeb845f497cf5b86e7c0cddb3ea);
+            
+        
+
+        marker_1b5c4b4afbcb530161d38bcfc00b6b71.bindPopup(popup_96fe7d513efa6c212f2fea94c4d490bc)
+        ;
+
+        
+    
+    
+            var marker_a122ca56aed8e6c0f9ce06e8e8b7ea60 = L.marker(
+                [17.730673, 83.258745],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_76d49a4a4f110b8504d1498170d4aa89 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a122ca56aed8e6c0f9ce06e8e8b7ea60.setIcon(icon_76d49a4a4f110b8504d1498170d4aa89);
+        
+    
+        var popup_635c15fa465ebcaacc1d7a5cd39099b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1893b6d0df041a29d968f0cce9b2820e = $(`<div id="html_1893b6d0df041a29d968f0cce9b2820e" style="width: 100.0%; height: 100.0%;">Financial Crimes</div>`)[0];
+                popup_635c15fa465ebcaacc1d7a5cd39099b9.setContent(html_1893b6d0df041a29d968f0cce9b2820e);
+            
+        
+
+        marker_a122ca56aed8e6c0f9ce06e8e8b7ea60.bindPopup(popup_635c15fa465ebcaacc1d7a5cd39099b9)
+        ;
+
+        
+    
+    
+            var marker_fd26aa24c19600169d363d685bf0885f = L.marker(
+                [17.702763, 83.332891],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_0eb7c8ce6a3ab2e45fb91c7c40c25232 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fd26aa24c19600169d363d685bf0885f.setIcon(icon_0eb7c8ce6a3ab2e45fb91c7c40c25232);
+        
+    
+        var popup_728cbc3d55b07d50c02e4d7ae0c5bd5a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_121c58ec43e8fcc56fac27fe2a8ecf8b = $(`<div id="html_121c58ec43e8fcc56fac27fe2a8ecf8b" style="width: 100.0%; height: 100.0%;">Violent crimes</div>`)[0];
+                popup_728cbc3d55b07d50c02e4d7ae0c5bd5a.setContent(html_121c58ec43e8fcc56fac27fe2a8ecf8b);
+            
+        
+
+        marker_fd26aa24c19600169d363d685bf0885f.bindPopup(popup_728cbc3d55b07d50c02e4d7ae0c5bd5a)
+        ;
+
+        
+    
+    
+            var marker_c186e8c04a4bb377c75f737bfcfe309c = L.marker(
+                [17.725485, 83.276707],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_12bd6f2c640988f530350f141c0d8d6e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_c186e8c04a4bb377c75f737bfcfe309c.setIcon(icon_12bd6f2c640988f530350f141c0d8d6e);
+        
+    
+        var popup_1ff51e6a19264444e9fa88ab6b3bbc52 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c0f24e5b765725949de4ef294b3caf9 = $(`<div id="html_5c0f24e5b765725949de4ef294b3caf9" style="width: 100.0%; height: 100.0%;">Cyber crimes</div>`)[0];
+                popup_1ff51e6a19264444e9fa88ab6b3bbc52.setContent(html_5c0f24e5b765725949de4ef294b3caf9);
+            
+        
+
+        marker_c186e8c04a4bb377c75f737bfcfe309c.bindPopup(popup_1ff51e6a19264444e9fa88ab6b3bbc52)
+        ;
+
+        
+    
+    
+            var marker_970516b7d05057d0dd988d9d85afb9e1 = L.marker(
+                [17.725167, 83.345342],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_db8d1918f64de5ee0bc22f9c434fa48d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_970516b7d05057d0dd988d9d85afb9e1.setIcon(icon_db8d1918f64de5ee0bc22f9c434fa48d);
+        
+    
+        var popup_ed58be0a052e01816d6c367d835b27cf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b39aa7c62c36301b9cbbd41edfff279 = $(`<div id="html_2b39aa7c62c36301b9cbbd41edfff279" style="width: 100.0%; height: 100.0%;">Drug-Related</div>`)[0];
+                popup_ed58be0a052e01816d6c367d835b27cf.setContent(html_2b39aa7c62c36301b9cbbd41edfff279);
+            
+        
+
+        marker_970516b7d05057d0dd988d9d85afb9e1.bindPopup(popup_ed58be0a052e01816d6c367d835b27cf)
+        ;
+
+        
+    
+    
+            var marker_7fd8585095594fc349ca0b6cefcfc3d1 = L.marker(
+                [17.703089, 83.357894],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_0b9e898fc960ec9db3ce2a6ad782a44b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7fd8585095594fc349ca0b6cefcfc3d1.setIcon(icon_0b9e898fc960ec9db3ce2a6ad782a44b);
+        
+    
+        var popup_54c9a2c0ad289f8678f988dbe126a0bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ea999971009aeacb9e18e62b282cb5d2 = $(`<div id="html_ea999971009aeacb9e18e62b282cb5d2" style="width: 100.0%; height: 100.0%;">Property crimes</div>`)[0];
+                popup_54c9a2c0ad289f8678f988dbe126a0bd.setContent(html_ea999971009aeacb9e18e62b282cb5d2);
+            
+        
+
+        marker_7fd8585095594fc349ca0b6cefcfc3d1.bindPopup(popup_54c9a2c0ad289f8678f988dbe126a0bd)
+        ;
+
+        
+    
+    
+            var marker_6bbbb2a6e6acccede069daeba8a6ab76 = L.marker(
+                [17.745032, 83.29863],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_ad6b364c4d049549702a2ca05f81c5ad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6bbbb2a6e6acccede069daeba8a6ab76.setIcon(icon_ad6b364c4d049549702a2ca05f81c5ad);
+        
+    
+        var popup_560ceb23802beead041403368112ba16 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd4f2724d9952bd9f919c01f569dd645 = $(`<div id="html_dd4f2724d9952bd9f919c01f569dd645" style="width: 100.0%; height: 100.0%;">Violent crimes</div>`)[0];
+                popup_560ceb23802beead041403368112ba16.setContent(html_dd4f2724d9952bd9f919c01f569dd645);
+            
+        
+
+        marker_6bbbb2a6e6acccede069daeba8a6ab76.bindPopup(popup_560ceb23802beead041403368112ba16)
+        ;
+
+        
+    
+    
+            var marker_2abb5dd334b8c8bf543b8306d9f844ce = L.marker(
+                [17.755982, 83.31355],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_65140cf6e6ac31241560ec7e1e3fbc3c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2abb5dd334b8c8bf543b8306d9f844ce.setIcon(icon_65140cf6e6ac31241560ec7e1e3fbc3c);
+        
+    
+        var popup_846a88c3187389c12e6f322da7b078df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_da0787c62512424186c146ad2d2d298e = $(`<div id="html_da0787c62512424186c146ad2d2d298e" style="width: 100.0%; height: 100.0%;">Financial Crimes</div>`)[0];
+                popup_846a88c3187389c12e6f322da7b078df.setContent(html_da0787c62512424186c146ad2d2d298e);
+            
+        
+
+        marker_2abb5dd334b8c8bf543b8306d9f844ce.bindPopup(popup_846a88c3187389c12e6f322da7b078df)
+        ;
+
+        
+    
+    
+            var marker_1762ae826df06d6ad6a8c8b544a6ec17 = L.marker(
+                [17.76448, 83.279528],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_95ee4dd61e93b6fd8ffe3b4a00588f89 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1762ae826df06d6ad6a8c8b544a6ec17.setIcon(icon_95ee4dd61e93b6fd8ffe3b4a00588f89);
+        
+    
+        var popup_402b573b50ffc3a131eee823fa92d09f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1076ef714c7c1333bfff6134b5b8126c = $(`<div id="html_1076ef714c7c1333bfff6134b5b8126c" style="width: 100.0%; height: 100.0%;">Violent crimes</div>`)[0];
+                popup_402b573b50ffc3a131eee823fa92d09f.setContent(html_1076ef714c7c1333bfff6134b5b8126c);
+            
+        
+
+        marker_1762ae826df06d6ad6a8c8b544a6ec17.bindPopup(popup_402b573b50ffc3a131eee823fa92d09f)
+        ;
+
+        
+    
+    
+            var marker_ee662e73d84ab4b074efb3219490bf87 = L.marker(
+                [17.770005, 83.277523],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_5f68bd55ff4521c83c2d4b9d413b684f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ee662e73d84ab4b074efb3219490bf87.setIcon(icon_5f68bd55ff4521c83c2d4b9d413b684f);
+        
+    
+        var popup_83743d02203599997d74fd5a6f7b1498 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_13044f5f324ad17a89237b764d997a3b = $(`<div id="html_13044f5f324ad17a89237b764d997a3b" style="width: 100.0%; height: 100.0%;">Violent crimes</div>`)[0];
+                popup_83743d02203599997d74fd5a6f7b1498.setContent(html_13044f5f324ad17a89237b764d997a3b);
+            
+        
+
+        marker_ee662e73d84ab4b074efb3219490bf87.bindPopup(popup_83743d02203599997d74fd5a6f7b1498)
+        ;
+
+        
+    
+    
+            var marker_5e8738cd16eb3446c53a9fe94fdcc02c = L.marker(
+                [17.738886, 83.245461],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_fa5d3e5b0f87aff34ec7171211267894 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5e8738cd16eb3446c53a9fe94fdcc02c.setIcon(icon_fa5d3e5b0f87aff34ec7171211267894);
+        
+    
+        var popup_6e19eadb8905edeee5b874775678569e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_24eb4b456bf908fbfa9fc298ee1b46d2 = $(`<div id="html_24eb4b456bf908fbfa9fc298ee1b46d2" style="width: 100.0%; height: 100.0%;">Property crimes</div>`)[0];
+                popup_6e19eadb8905edeee5b874775678569e.setContent(html_24eb4b456bf908fbfa9fc298ee1b46d2);
+            
+        
+
+        marker_5e8738cd16eb3446c53a9fe94fdcc02c.bindPopup(popup_6e19eadb8905edeee5b874775678569e)
+        ;
+
+        
+    
+    
+            var marker_bc6b238f5dc2026e61da489ac9913c8e = L.marker(
+                [17.710464, 83.377171],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_eba4e54471eebc7fb5de4888a94a11e1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bc6b238f5dc2026e61da489ac9913c8e.setIcon(icon_eba4e54471eebc7fb5de4888a94a11e1);
+        
+    
+        var popup_001384c761e2071a49f79d02d56fce98 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a267539808a03fb072d6276e840555a = $(`<div id="html_7a267539808a03fb072d6276e840555a" style="width: 100.0%; height: 100.0%;">Violent crimes</div>`)[0];
+                popup_001384c761e2071a49f79d02d56fce98.setContent(html_7a267539808a03fb072d6276e840555a);
+            
+        
+
+        marker_bc6b238f5dc2026e61da489ac9913c8e.bindPopup(popup_001384c761e2071a49f79d02d56fce98)
+        ;
+
+        
+    
+    
+            var marker_1d003eae7bde9c4d9df4eafc369300cd = L.marker(
+                [17.710968, 83.274724],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_1a7728f21eb2c502080e4cad28ee094d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1d003eae7bde9c4d9df4eafc369300cd.setIcon(icon_1a7728f21eb2c502080e4cad28ee094d);
+        
+    
+        var popup_6ec9ccd64990f704912e3317fa982d06 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92620b5f49c1fe9fac1ca9624fd9dba5 = $(`<div id="html_92620b5f49c1fe9fac1ca9624fd9dba5" style="width: 100.0%; height: 100.0%;">Property crimes</div>`)[0];
+                popup_6ec9ccd64990f704912e3317fa982d06.setContent(html_92620b5f49c1fe9fac1ca9624fd9dba5);
+            
+        
+
+        marker_1d003eae7bde9c4d9df4eafc369300cd.bindPopup(popup_6ec9ccd64990f704912e3317fa982d06)
+        ;
+
+        
+    
+    
+            var marker_2c81fe245dd0971cdf6caffd57bfd326 = L.marker(
+                [17.697418, 83.315044],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_834c9c16124eb65556f47fb583bf524c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2c81fe245dd0971cdf6caffd57bfd326.setIcon(icon_834c9c16124eb65556f47fb583bf524c);
+        
+    
+        var popup_45776e8987cc7e6a4e5f892360288a13 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f632455f778a5fb1d0b90afb026ef3df = $(`<div id="html_f632455f778a5fb1d0b90afb026ef3df" style="width: 100.0%; height: 100.0%;">Violent crimes</div>`)[0];
+                popup_45776e8987cc7e6a4e5f892360288a13.setContent(html_f632455f778a5fb1d0b90afb026ef3df);
+            
+        
+
+        marker_2c81fe245dd0971cdf6caffd57bfd326.bindPopup(popup_45776e8987cc7e6a4e5f892360288a13)
+        ;
+
+        
+    
+    
+            var marker_5baf3851b37c0e06075a8526250f6228 = L.marker(
+                [17.703526, 83.240601],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_0a3b4eeb9b4407f5e1bc1c3e2fc7305c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_5baf3851b37c0e06075a8526250f6228.setIcon(icon_0a3b4eeb9b4407f5e1bc1c3e2fc7305c);
+        
+    
+        var popup_cb59639e808a49b40e33269a791b9f77 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e86dba50fbfd9c251cf3dc32693811bf = $(`<div id="html_e86dba50fbfd9c251cf3dc32693811bf" style="width: 100.0%; height: 100.0%;">Human Trafficking</div>`)[0];
+                popup_cb59639e808a49b40e33269a791b9f77.setContent(html_e86dba50fbfd9c251cf3dc32693811bf);
+            
+        
+
+        marker_5baf3851b37c0e06075a8526250f6228.bindPopup(popup_cb59639e808a49b40e33269a791b9f77)
+        ;
+
+        
+    
+    
+            var marker_40739878aa7f7715e8381a26bd0876fd = L.marker(
+                [17.729443, 83.225177],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_abf7453907a85f96037f4824d06d6bb2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_40739878aa7f7715e8381a26bd0876fd.setIcon(icon_abf7453907a85f96037f4824d06d6bb2);
+        
+    
+        var popup_e8c59aad4a652f2be8f42e3a0479e500 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29b9a85f371136960606d0ef45ead8ed = $(`<div id="html_29b9a85f371136960606d0ef45ead8ed" style="width: 100.0%; height: 100.0%;">Property crimes</div>`)[0];
+                popup_e8c59aad4a652f2be8f42e3a0479e500.setContent(html_29b9a85f371136960606d0ef45ead8ed);
+            
+        
+
+        marker_40739878aa7f7715e8381a26bd0876fd.bindPopup(popup_e8c59aad4a652f2be8f42e3a0479e500)
+        ;
+
+        
+    
+    
+            var marker_5222f19adbd7f06972b559737f65ab7f = L.marker(
+                [17.739103, 83.365456],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_8009750357a64fc9e9dc9a8380886d55 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_5222f19adbd7f06972b559737f65ab7f.setIcon(icon_8009750357a64fc9e9dc9a8380886d55);
+        
+    
+        var popup_7f9dc76813e98f000ac2675c3b883e38 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5b426d332927d66d6b8900a7cb63eb8 = $(`<div id="html_c5b426d332927d66d6b8900a7cb63eb8" style="width: 100.0%; height: 100.0%;">Cyber crimes</div>`)[0];
+                popup_7f9dc76813e98f000ac2675c3b883e38.setContent(html_c5b426d332927d66d6b8900a7cb63eb8);
+            
+        
+
+        marker_5222f19adbd7f06972b559737f65ab7f.bindPopup(popup_7f9dc76813e98f000ac2675c3b883e38)
+        ;
+
+        
+    
+    
+            var marker_d607b89713f81dfe0d0e457610ca5603 = L.marker(
+                [17.756783, 83.244336],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_d0cc06725e28fb3ba84816aff4d74e7c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_d607b89713f81dfe0d0e457610ca5603.setIcon(icon_d0cc06725e28fb3ba84816aff4d74e7c);
+        
+    
+        var popup_cc2eeee5e76892c8ab77b4c7957021f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a96d0d77d0b0869ba73fe91175503a2 = $(`<div id="html_7a96d0d77d0b0869ba73fe91175503a2" style="width: 100.0%; height: 100.0%;">Domestic Violence</div>`)[0];
+                popup_cc2eeee5e76892c8ab77b4c7957021f7.setContent(html_7a96d0d77d0b0869ba73fe91175503a2);
+            
+        
+
+        marker_d607b89713f81dfe0d0e457610ca5603.bindPopup(popup_cc2eeee5e76892c8ab77b4c7957021f7)
+        ;
+
+        
+    
+    
+            var marker_8c5d0772a66851941b60e567d42a2563 = L.marker(
+                [17.703225, 83.270593],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_d21b7a44c004123364f4a91cdd09cd52 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_8c5d0772a66851941b60e567d42a2563.setIcon(icon_d21b7a44c004123364f4a91cdd09cd52);
+        
+    
+        var popup_d0ac3d5227b6a15ac704bc504afddb86 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_27c58b502182256cc017c6029eede3bd = $(`<div id="html_27c58b502182256cc017c6029eede3bd" style="width: 100.0%; height: 100.0%;">Human Trafficking</div>`)[0];
+                popup_d0ac3d5227b6a15ac704bc504afddb86.setContent(html_27c58b502182256cc017c6029eede3bd);
+            
+        
+
+        marker_8c5d0772a66851941b60e567d42a2563.bindPopup(popup_d0ac3d5227b6a15ac704bc504afddb86)
+        ;
+
+        
+    
+    
+            var marker_f7e41dd475c468106e538643196ab344 = L.marker(
+                [17.74646, 83.313236],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_0735b24644c4276a1785894d0c323573 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f7e41dd475c468106e538643196ab344.setIcon(icon_0735b24644c4276a1785894d0c323573);
+        
+    
+        var popup_21025a33778651b7e014b6a569405a88 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c9ce5fdbeff4ed86495207c19edd49d1 = $(`<div id="html_c9ce5fdbeff4ed86495207c19edd49d1" style="width: 100.0%; height: 100.0%;">Violent crimes</div>`)[0];
+                popup_21025a33778651b7e014b6a569405a88.setContent(html_c9ce5fdbeff4ed86495207c19edd49d1);
+            
+        
+
+        marker_f7e41dd475c468106e538643196ab344.bindPopup(popup_21025a33778651b7e014b6a569405a88)
+        ;
+
+        
+    
+    
+            var marker_ddd2f5ce96b6d555f38dd29a4de1d2ef = L.marker(
+                [17.694057, 83.35734],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_99c8dcb600df52654adb404bd6cc6390 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_ddd2f5ce96b6d555f38dd29a4de1d2ef.setIcon(icon_99c8dcb600df52654adb404bd6cc6390);
+        
+    
+        var popup_755ff74afa0c51b81aff06ab1fdd1050 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ca42233f2532d58c1e01e8501c59c513 = $(`<div id="html_ca42233f2532d58c1e01e8501c59c513" style="width: 100.0%; height: 100.0%;">Human Trafficking</div>`)[0];
+                popup_755ff74afa0c51b81aff06ab1fdd1050.setContent(html_ca42233f2532d58c1e01e8501c59c513);
+            
+        
+
+        marker_ddd2f5ce96b6d555f38dd29a4de1d2ef.bindPopup(popup_755ff74afa0c51b81aff06ab1fdd1050)
+        ;
+
+        
+    
+    
+            var marker_d9d8ccd920a1f8ce35b13ab2bd436b61 = L.marker(
+                [17.746836, 83.227305],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_a6f9331efc0b9c5a16ba28c9bf245d8b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_d9d8ccd920a1f8ce35b13ab2bd436b61.setIcon(icon_a6f9331efc0b9c5a16ba28c9bf245d8b);
+        
+    
+        var popup_e3258d6531535df4d321b65bc15563d9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eaa8abc4b5f00303fc0a670fc8d40985 = $(`<div id="html_eaa8abc4b5f00303fc0a670fc8d40985" style="width: 100.0%; height: 100.0%;">Human Trafficking</div>`)[0];
+                popup_e3258d6531535df4d321b65bc15563d9.setContent(html_eaa8abc4b5f00303fc0a670fc8d40985);
+            
+        
+
+        marker_d9d8ccd920a1f8ce35b13ab2bd436b61.bindPopup(popup_e3258d6531535df4d321b65bc15563d9)
+        ;
+
+        
+    
+    
+            var marker_76fc0122e6d4ed0af74f97a12e3d51db = L.marker(
+                [17.689296, 83.240767],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_5ad44855d72c9a172db473ee8b0b7683 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_76fc0122e6d4ed0af74f97a12e3d51db.setIcon(icon_5ad44855d72c9a172db473ee8b0b7683);
+        
+    
+        var popup_cdc6a099966e4a070c52d9fe3f5362e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4917c4a6837149a9a8b56e2040f07fd9 = $(`<div id="html_4917c4a6837149a9a8b56e2040f07fd9" style="width: 100.0%; height: 100.0%;">Violent crimes</div>`)[0];
+                popup_cdc6a099966e4a070c52d9fe3f5362e7.setContent(html_4917c4a6837149a9a8b56e2040f07fd9);
+            
+        
+
+        marker_76fc0122e6d4ed0af74f97a12e3d51db.bindPopup(popup_cdc6a099966e4a070c52d9fe3f5362e7)
+        ;
+
+        
+    
+    
+            var marker_73210527c67a4e5eb183a91c05b545d0 = L.marker(
+                [17.741117, 83.294189],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_1350d45732bd1da23ceac7c0e8aa121f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_73210527c67a4e5eb183a91c05b545d0.setIcon(icon_1350d45732bd1da23ceac7c0e8aa121f);
+        
+    
+        var popup_f7c0d56e5f4088c3ffd504af1f02e724 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_96caba5c0a6f33b00ff86da5ee8d3e26 = $(`<div id="html_96caba5c0a6f33b00ff86da5ee8d3e26" style="width: 100.0%; height: 100.0%;">Human Trafficking</div>`)[0];
+                popup_f7c0d56e5f4088c3ffd504af1f02e724.setContent(html_96caba5c0a6f33b00ff86da5ee8d3e26);
+            
+        
+
+        marker_73210527c67a4e5eb183a91c05b545d0.bindPopup(popup_f7c0d56e5f4088c3ffd504af1f02e724)
+        ;
+
+        
+    
+    
+            var marker_c9c08e10aa62cb3b01a82c9a147904a3 = L.marker(
+                [17.719125, 83.233148],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_fd681b698f2539641a614e3d4ac3e733 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_c9c08e10aa62cb3b01a82c9a147904a3.setIcon(icon_fd681b698f2539641a614e3d4ac3e733);
+        
+    
+        var popup_f83a46e19e4aedb257be7e439617f271 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d1ae621487a92592633eba43c752d46f = $(`<div id="html_d1ae621487a92592633eba43c752d46f" style="width: 100.0%; height: 100.0%;">Cyber crimes</div>`)[0];
+                popup_f83a46e19e4aedb257be7e439617f271.setContent(html_d1ae621487a92592633eba43c752d46f);
+            
+        
+
+        marker_c9c08e10aa62cb3b01a82c9a147904a3.bindPopup(popup_f83a46e19e4aedb257be7e439617f271)
+        ;
+
+        
+    
+    
+            var marker_0095ebb9629c8a28c7d76f7471092584 = L.marker(
+                [17.717952, 83.238859],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_2d03efbd57d1ee39b124ff2ad6caf756 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0095ebb9629c8a28c7d76f7471092584.setIcon(icon_2d03efbd57d1ee39b124ff2ad6caf756);
+        
+    
+        var popup_886c73d2e7d5409fdc9ba1139d45053c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d6aeeeab00855ed9eb9305e559c0bc21 = $(`<div id="html_d6aeeeab00855ed9eb9305e559c0bc21" style="width: 100.0%; height: 100.0%;">Financial Crimes</div>`)[0];
+                popup_886c73d2e7d5409fdc9ba1139d45053c.setContent(html_d6aeeeab00855ed9eb9305e559c0bc21);
+            
+        
+
+        marker_0095ebb9629c8a28c7d76f7471092584.bindPopup(popup_886c73d2e7d5409fdc9ba1139d45053c)
+        ;
+
+        
+    
+    
+            var marker_32addb4b23a75157fac457aa2cc6fc20 = L.marker(
+                [17.70087, 83.337642],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_10201e71721139b764a00a5363f203ac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_32addb4b23a75157fac457aa2cc6fc20.setIcon(icon_10201e71721139b764a00a5363f203ac);
+        
+    
+        var popup_5c3f6d9aba47f556f648d3f652a71c39 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc49034f65e2ab7d4828f9d3154f4d16 = $(`<div id="html_dc49034f65e2ab7d4828f9d3154f4d16" style="width: 100.0%; height: 100.0%;">Drug-Related</div>`)[0];
+                popup_5c3f6d9aba47f556f648d3f652a71c39.setContent(html_dc49034f65e2ab7d4828f9d3154f4d16);
+            
+        
+
+        marker_32addb4b23a75157fac457aa2cc6fc20.bindPopup(popup_5c3f6d9aba47f556f648d3f652a71c39)
+        ;
+
+        
+    
+    
+            var marker_2d3d2deabc4f1842e8a355e5cb1f2b39 = L.marker(
+                [17.69635, 83.354944],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_a5b77f8cb71ee0520161f99d54b95fce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2d3d2deabc4f1842e8a355e5cb1f2b39.setIcon(icon_a5b77f8cb71ee0520161f99d54b95fce);
+        
+    
+        var popup_8cd1ae27ee48e8c9c5c81bf5f8b3c560 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8572bd90c35494f29a1c0ae541278926 = $(`<div id="html_8572bd90c35494f29a1c0ae541278926" style="width: 100.0%; height: 100.0%;">Property crimes</div>`)[0];
+                popup_8cd1ae27ee48e8c9c5c81bf5f8b3c560.setContent(html_8572bd90c35494f29a1c0ae541278926);
+            
+        
+
+        marker_2d3d2deabc4f1842e8a355e5cb1f2b39.bindPopup(popup_8cd1ae27ee48e8c9c5c81bf5f8b3c560)
+        ;
+
+        
+    
+    
+            var marker_1c2f5600d3a84591bbe2188b7f88cf3c = L.marker(
+                [17.72905, 83.332725],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_912633fa361b948107db2870dd9f41e4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1c2f5600d3a84591bbe2188b7f88cf3c.setIcon(icon_912633fa361b948107db2870dd9f41e4);
+        
+    
+        var popup_d667d5a86a1a96557085531d833ed176 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d4f54bfa3cde2e2a2ffa30e3835c939d = $(`<div id="html_d4f54bfa3cde2e2a2ffa30e3835c939d" style="width: 100.0%; height: 100.0%;">Violent crimes</div>`)[0];
+                popup_d667d5a86a1a96557085531d833ed176.setContent(html_d4f54bfa3cde2e2a2ffa30e3835c939d);
+            
+        
+
+        marker_1c2f5600d3a84591bbe2188b7f88cf3c.bindPopup(popup_d667d5a86a1a96557085531d833ed176)
+        ;
+
+        
+    
+    
+            var marker_ed6752387320c5b2ba608ddcc8a5c5f0 = L.marker(
+                [17.725007, 83.302718],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_d000848f70d03685ea56794effcc1408 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_ed6752387320c5b2ba608ddcc8a5c5f0.setIcon(icon_d000848f70d03685ea56794effcc1408);
+        
+    
+        var popup_20941f326ca4e2f79e93f68caadcd029 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c38b922ae2d6ea390f51477b0486b780 = $(`<div id="html_c38b922ae2d6ea390f51477b0486b780" style="width: 100.0%; height: 100.0%;">Drug-Related</div>`)[0];
+                popup_20941f326ca4e2f79e93f68caadcd029.setContent(html_c38b922ae2d6ea390f51477b0486b780);
+            
+        
+
+        marker_ed6752387320c5b2ba608ddcc8a5c5f0.bindPopup(popup_20941f326ca4e2f79e93f68caadcd029)
+        ;
+
+        
+    
+    
+            var marker_cfb999f0c45081d6f012a1d07c65a8fa = L.marker(
+                [17.763939, 83.277548],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_b5b0b821c7990ff09fb2acc62fd268be = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_cfb999f0c45081d6f012a1d07c65a8fa.setIcon(icon_b5b0b821c7990ff09fb2acc62fd268be);
+        
+    
+        var popup_9212ba267bf023afaf22025610f1a45c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8423079e45c2135bb77626e82fe5dedc = $(`<div id="html_8423079e45c2135bb77626e82fe5dedc" style="width: 100.0%; height: 100.0%;">Human Trafficking</div>`)[0];
+                popup_9212ba267bf023afaf22025610f1a45c.setContent(html_8423079e45c2135bb77626e82fe5dedc);
+            
+        
+
+        marker_cfb999f0c45081d6f012a1d07c65a8fa.bindPopup(popup_9212ba267bf023afaf22025610f1a45c)
+        ;
+
+        
+    
+    
+            var marker_d4341d58fb01b684ad8d201bab88d58c = L.marker(
+                [17.773662, 83.222975],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_413955bb61164d997b6002a6853d6876 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d4341d58fb01b684ad8d201bab88d58c.setIcon(icon_413955bb61164d997b6002a6853d6876);
+        
+    
+        var popup_f6c94a64ceb14ff39406a9f46580065b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ca6b1a9ec01d1a23a430f703e7cf86f3 = $(`<div id="html_ca6b1a9ec01d1a23a430f703e7cf86f3" style="width: 100.0%; height: 100.0%;">Violent crimes</div>`)[0];
+                popup_f6c94a64ceb14ff39406a9f46580065b.setContent(html_ca6b1a9ec01d1a23a430f703e7cf86f3);
+            
+        
+
+        marker_d4341d58fb01b684ad8d201bab88d58c.bindPopup(popup_f6c94a64ceb14ff39406a9f46580065b)
+        ;
+
+        
+    
+    
+            var marker_c813e044152ad91c3e5d24404513c024 = L.marker(
+                [17.721611, 83.229733],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_43351720e952c6e4b29c6f4d4bac6ed6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c813e044152ad91c3e5d24404513c024.setIcon(icon_43351720e952c6e4b29c6f4d4bac6ed6);
+        
+    
+        var popup_b9946db5299a1ef3a88bd98420e49515 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fddb3a695faeb5988b77c38f60e5974f = $(`<div id="html_fddb3a695faeb5988b77c38f60e5974f" style="width: 100.0%; height: 100.0%;">Property crimes</div>`)[0];
+                popup_b9946db5299a1ef3a88bd98420e49515.setContent(html_fddb3a695faeb5988b77c38f60e5974f);
+            
+        
+
+        marker_c813e044152ad91c3e5d24404513c024.bindPopup(popup_b9946db5299a1ef3a88bd98420e49515)
+        ;
+
+        
+    
+    
+            var marker_c9c1abcf78ddc33f351374e7edad686e = L.marker(
+                [17.700517, 83.292361],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_1a6a721c973d01803cce2045d7743a96 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_c9c1abcf78ddc33f351374e7edad686e.setIcon(icon_1a6a721c973d01803cce2045d7743a96);
+        
+    
+        var popup_083d314bcdc546ff73c554f8922b6e04 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4313a04ca3cb380c097b902f64c5ad54 = $(`<div id="html_4313a04ca3cb380c097b902f64c5ad54" style="width: 100.0%; height: 100.0%;">Human Trafficking</div>`)[0];
+                popup_083d314bcdc546ff73c554f8922b6e04.setContent(html_4313a04ca3cb380c097b902f64c5ad54);
+            
+        
+
+        marker_c9c1abcf78ddc33f351374e7edad686e.bindPopup(popup_083d314bcdc546ff73c554f8922b6e04)
+        ;
+
+        
+    
+    
+            var marker_c90958a1b4ddf4542f5915795be69424 = L.marker(
+                [17.773504, 83.307571],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_83c05069a3b775bf19ef24617372d17f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c90958a1b4ddf4542f5915795be69424.setIcon(icon_83c05069a3b775bf19ef24617372d17f);
+        
+    
+        var popup_5a7c90ac02c77768647bb1543609c7da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_46ae78a8cd9015501b933d8811ce5d84 = $(`<div id="html_46ae78a8cd9015501b933d8811ce5d84" style="width: 100.0%; height: 100.0%;">Violent crimes</div>`)[0];
+                popup_5a7c90ac02c77768647bb1543609c7da.setContent(html_46ae78a8cd9015501b933d8811ce5d84);
+            
+        
+
+        marker_c90958a1b4ddf4542f5915795be69424.bindPopup(popup_5a7c90ac02c77768647bb1543609c7da)
+        ;
+
+        
+    
+    
+            var marker_4fd0d4529401303c625db00fbd9d76c9 = L.marker(
+                [17.723631, 83.357354],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_b3a7768e9d68d2b27b10721b40d9fc70 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4fd0d4529401303c625db00fbd9d76c9.setIcon(icon_b3a7768e9d68d2b27b10721b40d9fc70);
+        
+    
+        var popup_6e5a4da9946070587f96c0381ac5f66c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_226b130c165f10d34f20aadd70f824c0 = $(`<div id="html_226b130c165f10d34f20aadd70f824c0" style="width: 100.0%; height: 100.0%;">Financial Crimes</div>`)[0];
+                popup_6e5a4da9946070587f96c0381ac5f66c.setContent(html_226b130c165f10d34f20aadd70f824c0);
+            
+        
+
+        marker_4fd0d4529401303c625db00fbd9d76c9.bindPopup(popup_6e5a4da9946070587f96c0381ac5f66c)
+        ;
+
+        
+    
+    
+            var marker_295ea6c685e48b7d3f5d21fb468e7b0e = L.marker(
+                [17.7311, 83.338962],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_74f4970377d68e1a59d682999247a505 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_295ea6c685e48b7d3f5d21fb468e7b0e.setIcon(icon_74f4970377d68e1a59d682999247a505);
+        
+    
+        var popup_27e047007073df8bf94aac922302d1b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f21891321f537ded0d001827163623a = $(`<div id="html_5f21891321f537ded0d001827163623a" style="width: 100.0%; height: 100.0%;">Human Trafficking</div>`)[0];
+                popup_27e047007073df8bf94aac922302d1b9.setContent(html_5f21891321f537ded0d001827163623a);
+            
+        
+
+        marker_295ea6c685e48b7d3f5d21fb468e7b0e.bindPopup(popup_27e047007073df8bf94aac922302d1b9)
+        ;
+
+        
+    
+    
+            var marker_df330fc983a5399d98538813516f8139 = L.marker(
+                [17.753534, 83.231325],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_6ef2db6d9667eb95dc2410f54661cd62 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_df330fc983a5399d98538813516f8139.setIcon(icon_6ef2db6d9667eb95dc2410f54661cd62);
+        
+    
+        var popup_2d15c36a366b1216eaccad60be37875b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_288d3f2040459e877ed74c0ed2501c5e = $(`<div id="html_288d3f2040459e877ed74c0ed2501c5e" style="width: 100.0%; height: 100.0%;">Cyber crimes</div>`)[0];
+                popup_2d15c36a366b1216eaccad60be37875b.setContent(html_288d3f2040459e877ed74c0ed2501c5e);
+            
+        
+
+        marker_df330fc983a5399d98538813516f8139.bindPopup(popup_2d15c36a366b1216eaccad60be37875b)
+        ;
+
+        
+    
+    
+            var marker_f0cdc1c44be7cc6ce2bd71f702b87a9e = L.marker(
+                [17.7505, 83.293958],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_706c3c38cf462b8800dd67741e4d310e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_f0cdc1c44be7cc6ce2bd71f702b87a9e.setIcon(icon_706c3c38cf462b8800dd67741e4d310e);
+        
+    
+        var popup_e62e37de9589b053e2cc57ec3676f450 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a05bc82305d8a4d4c50aadaba52be2a = $(`<div id="html_6a05bc82305d8a4d4c50aadaba52be2a" style="width: 100.0%; height: 100.0%;">Human Trafficking</div>`)[0];
+                popup_e62e37de9589b053e2cc57ec3676f450.setContent(html_6a05bc82305d8a4d4c50aadaba52be2a);
+            
+        
+
+        marker_f0cdc1c44be7cc6ce2bd71f702b87a9e.bindPopup(popup_e62e37de9589b053e2cc57ec3676f450)
+        ;
+
+        
+    
+    
+            var marker_4908d1ba4e4ea2dacf4660b712d5dfa0 = L.marker(
+                [17.729168, 83.294756],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_5ef97e712fb7eb1acd69c6bb4de6f67c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4908d1ba4e4ea2dacf4660b712d5dfa0.setIcon(icon_5ef97e712fb7eb1acd69c6bb4de6f67c);
+        
+    
+        var popup_a32a3e1f3ae2d30f31a827c8e4c370b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d4859fcaa33ac17744f811ba0982d55a = $(`<div id="html_d4859fcaa33ac17744f811ba0982d55a" style="width: 100.0%; height: 100.0%;">Violent crimes</div>`)[0];
+                popup_a32a3e1f3ae2d30f31a827c8e4c370b9.setContent(html_d4859fcaa33ac17744f811ba0982d55a);
+            
+        
+
+        marker_4908d1ba4e4ea2dacf4660b712d5dfa0.bindPopup(popup_a32a3e1f3ae2d30f31a827c8e4c370b9)
+        ;
+
+        
+    
+    
+            var marker_923dc5d27016c3a27581ab0d19cb97bd = L.marker(
+                [17.767475, 83.346558],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_b16e6dfaf241313c9909ef03f7f7e05e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_923dc5d27016c3a27581ab0d19cb97bd.setIcon(icon_b16e6dfaf241313c9909ef03f7f7e05e);
+        
+    
+        var popup_534e24fd6ee7e9396138daf89f79383c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c468bb3c422e1698893a3966a4b0d53 = $(`<div id="html_3c468bb3c422e1698893a3966a4b0d53" style="width: 100.0%; height: 100.0%;">Financial Crimes</div>`)[0];
+                popup_534e24fd6ee7e9396138daf89f79383c.setContent(html_3c468bb3c422e1698893a3966a4b0d53);
+            
+        
+
+        marker_923dc5d27016c3a27581ab0d19cb97bd.bindPopup(popup_534e24fd6ee7e9396138daf89f79383c)
+        ;
+
+        
+    
+    
+            var marker_3e6a2734e9e4bb15fb57ab8738b4caf6 = L.marker(
+                [17.723587, 83.278119],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_04a42d5ec4e674ad7fada4bdce3c3b89 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3e6a2734e9e4bb15fb57ab8738b4caf6.setIcon(icon_04a42d5ec4e674ad7fada4bdce3c3b89);
+        
+    
+        var popup_08b6c01454c3939b3cb8bd8a9652c15c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d3e66d799b96e93b36a823c2a5659ed = $(`<div id="html_6d3e66d799b96e93b36a823c2a5659ed" style="width: 100.0%; height: 100.0%;">Financial Crimes</div>`)[0];
+                popup_08b6c01454c3939b3cb8bd8a9652c15c.setContent(html_6d3e66d799b96e93b36a823c2a5659ed);
+            
+        
+
+        marker_3e6a2734e9e4bb15fb57ab8738b4caf6.bindPopup(popup_08b6c01454c3939b3cb8bd8a9652c15c)
+        ;
+
+        
+    
+    
+            var marker_02502131f00f3eaf0e5178b39ef39408 = L.marker(
+                [17.735539, 83.371585],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_b920b0fa111dc2d2b2791a4de38bb72f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_02502131f00f3eaf0e5178b39ef39408.setIcon(icon_b920b0fa111dc2d2b2791a4de38bb72f);
+        
+    
+        var popup_f16aca80f19ca95052e0920102ff07c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7bc539b6b070377f5b011f2211ebc0d = $(`<div id="html_a7bc539b6b070377f5b011f2211ebc0d" style="width: 100.0%; height: 100.0%;">Domestic Violence</div>`)[0];
+                popup_f16aca80f19ca95052e0920102ff07c1.setContent(html_a7bc539b6b070377f5b011f2211ebc0d);
+            
+        
+
+        marker_02502131f00f3eaf0e5178b39ef39408.bindPopup(popup_f16aca80f19ca95052e0920102ff07c1)
+        ;
+
+        
+    
+    
+            var marker_2c07d7174e559a3f1e67860d1ca710fa = L.marker(
+                [17.76252, 83.256838],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_c86afdcb1c5891db729b4d34a5358dc9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_2c07d7174e559a3f1e67860d1ca710fa.setIcon(icon_c86afdcb1c5891db729b4d34a5358dc9);
+        
+    
+        var popup_3b4976134609058cd958dbf643aa0432 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9af684bdc83f7f34d2364bb2e7a1cab = $(`<div id="html_d9af684bdc83f7f34d2364bb2e7a1cab" style="width: 100.0%; height: 100.0%;">Domestic Violence</div>`)[0];
+                popup_3b4976134609058cd958dbf643aa0432.setContent(html_d9af684bdc83f7f34d2364bb2e7a1cab);
+            
+        
+
+        marker_2c07d7174e559a3f1e67860d1ca710fa.bindPopup(popup_3b4976134609058cd958dbf643aa0432)
+        ;
+
+        
+    
+    
+            var marker_40aa6ecdc1d520e9984c1cac89dae992 = L.marker(
+                [17.723791, 83.284332],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_957dfb7fd22c6c7e677042a486eac677 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_40aa6ecdc1d520e9984c1cac89dae992.setIcon(icon_957dfb7fd22c6c7e677042a486eac677);
+        
+    
+        var popup_286fe0675385ba0805184dcccbb3c81b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b757f1e1326f6916cef8b73e585f75e2 = $(`<div id="html_b757f1e1326f6916cef8b73e585f75e2" style="width: 100.0%; height: 100.0%;">Drug-Related</div>`)[0];
+                popup_286fe0675385ba0805184dcccbb3c81b.setContent(html_b757f1e1326f6916cef8b73e585f75e2);
+            
+        
+
+        marker_40aa6ecdc1d520e9984c1cac89dae992.bindPopup(popup_286fe0675385ba0805184dcccbb3c81b)
+        ;
+
+        
+    
+    
+            var marker_3578c7ae47fbe78408fb063f8d79d56f = L.marker(
+                [17.737358, 83.280841],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_8b585e6c0538ff55943668f340eda8ba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_3578c7ae47fbe78408fb063f8d79d56f.setIcon(icon_8b585e6c0538ff55943668f340eda8ba);
+        
+    
+        var popup_0132ad8092e100aedfb01e1eb421032d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9575cd2092b4cac1e88a948ff783225b = $(`<div id="html_9575cd2092b4cac1e88a948ff783225b" style="width: 100.0%; height: 100.0%;">Cyber crimes</div>`)[0];
+                popup_0132ad8092e100aedfb01e1eb421032d.setContent(html_9575cd2092b4cac1e88a948ff783225b);
+            
+        
+
+        marker_3578c7ae47fbe78408fb063f8d79d56f.bindPopup(popup_0132ad8092e100aedfb01e1eb421032d)
+        ;
+
+        
+    
+    
+            var marker_cf8decf1d4a536b795c0af77a1154cc3 = L.marker(
+                [17.691379, 83.322137],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_26bc882101283ebc744435ede29a3b9f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_cf8decf1d4a536b795c0af77a1154cc3.setIcon(icon_26bc882101283ebc744435ede29a3b9f);
+        
+    
+        var popup_e7bd32f7ef7d56ce1e20b2740781777c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aa8e85bd4c6129eec11e059d339a1126 = $(`<div id="html_aa8e85bd4c6129eec11e059d339a1126" style="width: 100.0%; height: 100.0%;">Domestic Violence</div>`)[0];
+                popup_e7bd32f7ef7d56ce1e20b2740781777c.setContent(html_aa8e85bd4c6129eec11e059d339a1126);
+            
+        
+
+        marker_cf8decf1d4a536b795c0af77a1154cc3.bindPopup(popup_e7bd32f7ef7d56ce1e20b2740781777c)
+        ;
+
+        
+    
+    
+            var marker_38cd4b2d2ea871bc0892698dc7c53709 = L.marker(
+                [17.742676, 83.290507],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_11f1fbe4584b88b9b4caab11d03920d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_38cd4b2d2ea871bc0892698dc7c53709.setIcon(icon_11f1fbe4584b88b9b4caab11d03920d7);
+        
+    
+        var popup_edbb73265c24ac99ade80189a033e8a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_84b5ac9541acbed8e5cb1812476608ab = $(`<div id="html_84b5ac9541acbed8e5cb1812476608ab" style="width: 100.0%; height: 100.0%;">Cyber crimes</div>`)[0];
+                popup_edbb73265c24ac99ade80189a033e8a5.setContent(html_84b5ac9541acbed8e5cb1812476608ab);
+            
+        
+
+        marker_38cd4b2d2ea871bc0892698dc7c53709.bindPopup(popup_edbb73265c24ac99ade80189a033e8a5)
+        ;
+
+        
+    
+    
+            var marker_6162d91ed698e4e290974c29d808703a = L.marker(
+                [17.702656, 83.26426],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_0edf14498310ba18b7db05a6018942d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_6162d91ed698e4e290974c29d808703a.setIcon(icon_0edf14498310ba18b7db05a6018942d7);
+        
+    
+        var popup_4decdc4dcf26bd24de09aeda74290090 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a17116802fecabf710a13dda48acd74 = $(`<div id="html_1a17116802fecabf710a13dda48acd74" style="width: 100.0%; height: 100.0%;">Drug-Related</div>`)[0];
+                popup_4decdc4dcf26bd24de09aeda74290090.setContent(html_1a17116802fecabf710a13dda48acd74);
+            
+        
+
+        marker_6162d91ed698e4e290974c29d808703a.bindPopup(popup_4decdc4dcf26bd24de09aeda74290090)
+        ;
+
+        
+    
+    
+            var marker_215f4568944b8141a8d09dda061ca046 = L.marker(
+                [17.709831, 83.338617],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_c49c78e0777bf06eed9f82d1ddfb6a99 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_215f4568944b8141a8d09dda061ca046.setIcon(icon_c49c78e0777bf06eed9f82d1ddfb6a99);
+        
+    
+        var popup_723aff4ecc5d83f74760ac5c47aefb96 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c1b5509505bf1c31b581ccb6f04e5ed = $(`<div id="html_2c1b5509505bf1c31b581ccb6f04e5ed" style="width: 100.0%; height: 100.0%;">Violent crimes</div>`)[0];
+                popup_723aff4ecc5d83f74760ac5c47aefb96.setContent(html_2c1b5509505bf1c31b581ccb6f04e5ed);
+            
+        
+
+        marker_215f4568944b8141a8d09dda061ca046.bindPopup(popup_723aff4ecc5d83f74760ac5c47aefb96)
+        ;
+
+        
+    
+    
+            var marker_79c3d187184ea857f6be5f062097f255 = L.marker(
+                [17.757117, 83.246053],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_b0dbf5d80a45a836b69448ee7cfe1aa8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_79c3d187184ea857f6be5f062097f255.setIcon(icon_b0dbf5d80a45a836b69448ee7cfe1aa8);
+        
+    
+        var popup_a146b28a9c06b0b1c794ca8e2ff6098d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a017bbad7777887c00f8aa09eefcff8 = $(`<div id="html_1a017bbad7777887c00f8aa09eefcff8" style="width: 100.0%; height: 100.0%;">Drug-Related</div>`)[0];
+                popup_a146b28a9c06b0b1c794ca8e2ff6098d.setContent(html_1a017bbad7777887c00f8aa09eefcff8);
+            
+        
+
+        marker_79c3d187184ea857f6be5f062097f255.bindPopup(popup_a146b28a9c06b0b1c794ca8e2ff6098d)
+        ;
+
+        
+    
+    
+            var marker_c8dbf513b10de806705d91cc28908071 = L.marker(
+                [17.749878, 83.227787],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_ce5366c1a0637b09d5b70692ddcad01e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_c8dbf513b10de806705d91cc28908071.setIcon(icon_ce5366c1a0637b09d5b70692ddcad01e);
+        
+    
+        var popup_a25058922959200eefaa2f7c0e2b6b88 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_951db078beee078f822b6ea06ca95f16 = $(`<div id="html_951db078beee078f822b6ea06ca95f16" style="width: 100.0%; height: 100.0%;">Domestic Violence</div>`)[0];
+                popup_a25058922959200eefaa2f7c0e2b6b88.setContent(html_951db078beee078f822b6ea06ca95f16);
+            
+        
+
+        marker_c8dbf513b10de806705d91cc28908071.bindPopup(popup_a25058922959200eefaa2f7c0e2b6b88)
+        ;
+
+        
+    
+    
+            var marker_3997062ba8f1208bd6c6e6792a8415bb = L.marker(
+                [17.739642, 83.33703],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_35322bdae2e1c493c0642429243fc5a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_3997062ba8f1208bd6c6e6792a8415bb.setIcon(icon_35322bdae2e1c493c0642429243fc5a8);
+        
+    
+        var popup_a9321417a7109b4f5f90b79e881b0daa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_13f2c39e891c457a2a3c9e7da74159b7 = $(`<div id="html_13f2c39e891c457a2a3c9e7da74159b7" style="width: 100.0%; height: 100.0%;">Cyber crimes</div>`)[0];
+                popup_a9321417a7109b4f5f90b79e881b0daa.setContent(html_13f2c39e891c457a2a3c9e7da74159b7);
+            
+        
+
+        marker_3997062ba8f1208bd6c6e6792a8415bb.bindPopup(popup_a9321417a7109b4f5f90b79e881b0daa)
+        ;
+
+        
+    
+    
+            var marker_c8b30b81f77e80d7011ebe28839c357f = L.marker(
+                [17.715792, 83.284778],
+                {}
+            ).addTo(map_4ef33a6e914d57be45345b076cf4beed);
+        
+    
+            var icon_23d7489526d482896336a68ef1bdcd91 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_c8b30b81f77e80d7011ebe28839c357f.setIcon(icon_23d7489526d482896336a68ef1bdcd91);
+        
+    
+        var popup_cd32f08c00331a1ed7cda90486a66976 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_26d81f26d526b3a646a3ab5f4b78063e = $(`<div id="html_26d81f26d526b3a646a3ab5f4b78063e" style="width: 100.0%; height: 100.0%;">Cyber crimes</div>`)[0];
+                popup_cd32f08c00331a1ed7cda90486a66976.setContent(html_26d81f26d526b3a646a3ab5f4b78063e);
+            
+        
+
+        marker_c8b30b81f77e80d7011ebe28839c357f.bindPopup(popup_cd32f08c00331a1ed7cda90486a66976)
+        ;
+
+        
+    
+</script>
+</html>
