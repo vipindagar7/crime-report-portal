@@ -33,7 +33,22 @@ The Public Safety Reporting Platform is a comprehensive software solution design
 2. Report incidents by providing detailed information and submitting the report.
 3. Access educational resources, interact with the chatbot, and provide feedback as needed.
 4. Monitor the status and progress of reported incidents through the platform.
+## 🖼️ Preview
 
+![Screenshot 1](screenshots/screenshot1.jpeg)
+![Screenshot 2](screenshots/screenshot2.jpeg)
+![Screenshot 3](screenshots/screenshot3.jpeg)
+![Screenshot 4](screenshots/screenshot4.jpeg)
+![Screenshot 5](screenshots/screenshot5.jpeg)
+![Screenshot 6](screenshots/screenshot6.jpeg)
+![Screenshot 7](screenshots/screenshot7.jpeg)
+![Screenshot 8](screenshots/screenshot8.jpeg)
+![Screenshot 9](screenshots/screenshot9.jpeg)
+![Screenshot 10](screenshots/screenshot10.jpeg)
+![Screenshot 11](screenshots/screenshot11.jpeg)
+![Screenshot 12](screenshots/screenshot12.jpeg)
+![Screenshot 13](screenshots/screenshot13.jpeg)
+![Screenshot 14](screenshots/screenshot14.jpeg)
 ## Contributing
 
 👥 **Contributing Guidelines:**
